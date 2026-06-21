@@ -1,0 +1,44 @@
+# OS Synology
+.DS_Store
+Thumbs.db
+/index.php
+
+# IDE / éditeurs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Environnement local
+.env
+.env.local
+
+# Base de données
+*.sql
+*.sqlite
+
+# Cache / temporaires
+tmp/
+cache/
+
+# Config Connection
+www/app/config/database.php
+www/app/config/secrets.php
+www/app/config/mail.php
+
+# Documentation projets
+/documentation
+
+# Node
+node_modules/
+
+# Ancienne Config v1.0
+/old
+
+# Fichiers de test
+/test_files
+
+# Composer
+/vendor
