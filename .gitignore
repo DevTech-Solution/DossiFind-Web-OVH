@@ -38,7 +38,7 @@ node_modules/
 /documentation
 
 # Fichier API
-www/app/controllers/api/license/verify.ph
+www/app/controllers/api/license/verify.php
 
 # Fichiers OVH
 .bash_logout
