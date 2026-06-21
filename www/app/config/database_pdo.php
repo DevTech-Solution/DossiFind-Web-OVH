@@ -51,11 +51,8 @@
             ]
         );
     } catch (PDOException $e) {
-    die('PDO ERROR : ' . $e->getMessage());
-    }
-    //catch (PDOException $e) {
     // En cas d'erreur PDO (ex : échec de connexion à la base de données)
     // encapsulation de l'exception PDO dans une RuntimeException
     // permet de centraliser la gestion des erreurs au niveau supérieur
-    //    throw new RuntimeException('Database connection failed', 0, $e);
-    //}
+        throw new RuntimeException('Database connection failed', 0, $e);
+    }

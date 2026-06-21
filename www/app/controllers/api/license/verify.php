@@ -27,7 +27,7 @@ try {
     // -------------------------------------------------------- //
     // Sécurité V1 : méthode HTTP autorisée
     // -------------------------------------------------------- //
-
+    
     if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
         // Réponse volontairement neutre
         http_response_code(404);

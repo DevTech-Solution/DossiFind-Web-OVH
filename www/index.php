@@ -5,22 +5,6 @@
     // Active le typage strict pour éviter que PHP soit trop permissif et force le respect des types déclarés
     declare(strict_types=1);
 
-    session_start();
-
-    $maintenance = true;
-
-    if (isset($_GET['dev']) && $_GET['dev'] === 'dossifind2026') {
-        $_SESSION['maintenance_bypass'] = true;
-    }
-
-    if (
-        $maintenance &&
-        empty($_SESSION['maintenance_bypass'])
-    ) {
-        require __DIR__ . '/maintenance.php';
-        exit;
-    }
-
     // Récupère le chemin de base du script courant sans le slash final
     $BASE_PATH = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/');
 
