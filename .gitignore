@@ -28,17 +28,14 @@ www/app/config/database.php
 www/app/config/secrets.php
 www/app/config/mail.php
 
-# Documentation projets
-/documentation
-
 # Node
 node_modules/
 
-# Ancienne Config v1.0
-/old
-
-# Fichiers de test
-/test_files
-
 # Composer
 /vendor
+
+# Documentation projets
+/documentation
+
+# Fichier API
+www/app/controllers/api/license/verify.php
