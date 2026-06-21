@@ -38,4 +38,13 @@ node_modules/
 /documentation
 
 # Fichier API
-www/app/controllers/api/license/verify.php
+www/app/controllers/api/license/verify.ph
+
+# Fichiers OVH
+.bash_logout
+
+.bash_profile
+
+.bashrc
+
+.ovhconfig
